@@ -1,4 +1,3 @@
-
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -101,8 +100,6 @@
       filter: brightness(1.2); /* Aumenta o brilho */
     }
 
-
-
     /* Efeito de corações animados */
     .heart {
       position: absolute;
@@ -183,9 +180,9 @@
 
   <!-- Música -->
   <div class="audio-player">
-  <audio id="audioPlayer" controls autoplay loop>
-  <source src="armandinho.mp3" type="audio/mpeg">
-</audio>
+    <audio id="audioPlayer" controls autoplay loop>
+      <source src="armandinho.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
   <!-- Script para Neve -->
@@ -257,15 +254,12 @@
 
     setInterval(createFloatingHearts, 1000); // Cria corações flutuantes a cada segundo
 
-  
-  window.onload = function() {
-    const audio = document.getElementById('audioPlayer');
-    audio.play().catch(function(error) {
-      console.log("Autoplay bloqueado, tente iniciar o áudio manualmente.");
-    });
-  }
-
+    window.onload = function() {
+      const audio = document.getElementById('audioPlayer');
+      audio.play().catch(function(error) {
+        console.log("Autoplay bloqueado, tente iniciar o áudio manualmente.");
+      });
+    }
   </script>
-
 </body>
 </html>
