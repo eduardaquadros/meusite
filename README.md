@@ -256,12 +256,7 @@
     setInterval(createFloatingHearts, 1000); // Cria corações flutuantes a cada segundo
 
   
-  window.onload = function() {
-    const audio = document.getElementById('audioPlayer');
-    audio.play().catch(function(error) {
-      console.log("Autoplay bloqueado, tente iniciar o áudio manualmente.");
-    });
-  }
+
 
   </script>
 
