@@ -179,12 +179,7 @@
     <br>Esse ano pedi pro Papai Noel me dar a vida inteira com você.  💖
   </div>
 
-  <!-- Música -->
-  <div class="audio-player">
-  <audio id="audioPlayer" controls autoplay loop>
-  <source src="armandinho.mp3" type="audio/mpeg">
-</audio>
-  </div>
+
 
   <!-- Script para Neve -->
   <script>
