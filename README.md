@@ -63,9 +63,7 @@
       color: red;
     }
 
-    .audio-player {
-      margin-top: 20px;
-    }
+    
 
     /* Neve */
     .snowflake {
